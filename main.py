@@ -1,6 +1,6 @@
 from datetime import datetime
 from application.salary import calculate_salary
-from DB.people import get_employees
+from application.DB.people import get_employees
 
 todays_date = datetime.today().strftime('%d.%m.%y')
 print('Сегодняшнее число', todays_date)
